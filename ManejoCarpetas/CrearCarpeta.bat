@@ -1,12 +1,12 @@
 @echo off
-Title Programando en MSDos
+color 0A
+echo Datos Actuales
 echo.
-echo -------------------------------
-echo Directorio Actual: %CD%
-echo Fecha: %DATE%
-echo Hora: %TIME%
-echo Numero Aleatorio: %RANDOM%
+echo ******************************
+echo Carpeta actual: %CD%
+echo Fecha actual: %DATE%
+echo Hora actual: %TIME%
+echo ******************************
 echo.
-echo ------------------------------
 echo Enter para salir
-pause > null
+pause
